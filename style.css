@@ -1,0 +1,44 @@
+#main .section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  margin-right: 19%;
+}
+@media (max-width: 575px) {
+  #main .section {
+    display: block;
+  }
+}
+#main .section .section1 {
+  margin-right: 9%;
+}
+#main .section .section2 .stars {
+  margin-left: 19%;
+  margin-top: -21%;
+  margin-top: -11%;
+}
+#main .section .section2 .stars img {
+  margin-bottom: 8%;
+  box-shadow: 10px 10px 5px #888888;
+}
+#main .section .section2 .stars h5 {
+  font-size: 24px;
+  width: 144%;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin-top: 6%;
+}
+#main .section .section2 .stars .name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #23a6f0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#main .section .section2 .stars .profession {
+  margin-top: -4%;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=style.css.map */

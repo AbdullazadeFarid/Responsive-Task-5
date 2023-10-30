@@ -1,0 +1,59 @@
+@import "./mixins";
+
+#main{
+
+    .section{
+        display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    margin-right: 19%;
+    @include mobile{
+        display: block;
+        
+    }
+    
+
+        .section1{
+            margin-right: 9%;
+
+
+        }
+        .section2{
+
+            .stars{
+                margin-left: 19%;
+                margin-top: -21%;
+                margin-top: -11%;
+                img{
+                    margin-bottom: 8%;
+                    box-shadow: 10px 10px 5px #888888;
+                }
+
+                h5{
+                    font-size: 24px;
+                    width: 144%;
+                    font-weight: 700;
+                    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin-top: 6%;
+                }
+                .name{
+                    font-size: 14px;
+                font-weight: 700;
+                color: #23a6f0;
+                font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+                }
+                .profession{
+                    margin-top: -4%;
+                    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+                }
+
+            }
+        }
+
+    }
+}
+
